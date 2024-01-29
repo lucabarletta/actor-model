@@ -1,4 +1,4 @@
-package com.actormodel.akkaSpringConfig;
+package com.actormodel.config.akkaSpringConfig;
 
 import akka.actor.Actor;
 import akka.actor.ActorRef;

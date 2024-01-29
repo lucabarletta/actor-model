@@ -1,4 +1,4 @@
-package com.actormodel.akkaSpringConfig;
+package com.actormodel.config.akkaSpringConfig;
 
 import akka.actor.ActorSystem;
 import com.typesafe.config.Config;
@@ -36,7 +36,7 @@ public class AkkaAutoConfiguration implements ApplicationContextAware {
 
     @Bean(destroyMethod = "terminate")
     public ActorSystem actorSystem() throws Exception {
-        String actorSystemName = "iotActorSystem";
+        String actorSystemName = "actorSystem";
         Resource conf = akkaProperties.getConf();
         ActorSystem actorSystem;
         if (conf == null) {

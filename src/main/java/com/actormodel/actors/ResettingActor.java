@@ -5,16 +5,11 @@ import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
 import akka.actor.ReceiveTimeout;
 import com.actormodel.actors.messageTypes.ResetSumMessage;
-import com.actormodel.actors.messageTypes.TerminationMessage;
-import com.actormodel.actors.messageTypes.ValueMessage;
-import com.actormodel.akkaSpringConfig.ActorComponent;
-import com.actormodel.akkaSpringConfig.SpringAkkaExtension;
+import com.actormodel.config.akkaSpringConfig.ActorComponent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import scala.concurrent.duration.Duration;
 
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
 
 @ActorComponent

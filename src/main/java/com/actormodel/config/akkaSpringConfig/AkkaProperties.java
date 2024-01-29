@@ -1,4 +1,4 @@
-package com.actormodel.akkaSpringConfig;
+package com.actormodel.config.akkaSpringConfig;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.core.io.Resource;
